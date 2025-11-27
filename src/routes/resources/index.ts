@@ -76,6 +76,7 @@ export abstract class BaseResource extends DurableObject {
   }
 
   protected broadcastPatch(payload: PatchPayload): void {
+    // console.log(payload)
     const message = this.createSseMessage('datastar-patch-elements', payload)
     if (!message) return
 

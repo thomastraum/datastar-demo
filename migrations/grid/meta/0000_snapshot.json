@@ -1,7 +1,7 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "d88cbbef-c8f4-4b62-8953-5646a626d882",
+  "id": "d9b0a4b0-cffe-4f47-8113-98d7363b62ed",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "chunks": {
